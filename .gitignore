@@ -1,0 +1,11 @@
+.hugo_build.lock
+.hvm
+themes/
+exampleSite/public/
+exampleSite/resources/
+exampleSite/.hugo_build.lock
+*.DS_Store
+public/
+resources/
+node_modules/
+.Rproj.user
