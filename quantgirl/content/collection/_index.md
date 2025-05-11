@@ -1,11 +1,11 @@
 ---
-title: "Create a Collection"
+title: "Create a collection"
 subtitle: "A collection, minus the blog."
 description: |
   Sometimes you want a souped-up series- a bundle of related pages 
   meant to be read in sequence. This section is like a blog series, 
   minus the blog.
-author: Alison Hill
+author: D. Santiago
 show_post_thumbnail: true
 thumbnail_left: false # for list-sidebar only
 show_author_byline: false
@@ -17,12 +17,10 @@ layout: list-sidebar # list, list-sidebar
 cascade:
   layout: single-series 
   sidebar:
-    title: "Create a Collection"
-    author: Alison Hill
+    title: "Advent Calendars"
+    author: D. Santiago
     description: |
-      Sometimes you want a souped-up series- a bundle of related pages 
-      meant to be read in sequence. This section is like a blog series, 
-      minus the blog.
+      An Advent calendar, from the German word Adventskalender, is used to count the days of Advent in anticipation of Christmas. Since the date of the First Sunday of Advent varies, falling between November 27 and December 3 inclusive, many reusable Advent calendars made of paper or wood begin on December 1.
     show_author_byline: true
     show_post_date: true
     text_link_label: ""

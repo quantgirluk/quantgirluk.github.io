@@ -1,98 +1,31 @@
 ---
-title: "Set up your social"
-subtitle: "Social icons may appear on several pages throughout your site. Learn how to set them up, and control where they show up."
-excerpt: "This theme offers built-in Font Awesome icons for organizing your collection of social accounts and their links. Use icons to help visitors find you wherever you want to be found, and learn how to show or hide them in your site's header, footer, homepage, about page, and contact form."
-date: 2021-01-28
-author: "Alison Hill & Eric Anderson"
+title: "KCL 2025"
+subtitle: "Last month, I had the privilege of delivering a guest lecture at King’s College London to MSc students enrolled in the Computational Finance program."
+excerpt: "Last month, I had the privilege of delivering a guest lecture at King’s College London to MSc students enrolled in the Computational Finance program. This year, we focused on the estimating price sensitivities (a.k.a. Greeks) using Malliavin Calculus + Monte Carlo methods."
+date: 2025-03-07
+author: "D. Santiago"
 draft: false
 # layout options: single, single-sidebar
-layout: single
+layout: single-sidebar
 categories:
-- Theme Features
+- Talks
 ---
 
-There are five places where you can choose to show social icons. Here is the tl;dr:
+ This year, we focused on the problem of estimating price sensitivities (a.k.a. Greeks) using Malliavin Calculus + Monte Carlo methods, thoroughly exploring its mathematical formulation, along with a practical demonstration of its implementation in Python. 🐍
 
-+ site header (set in `config.toml`), 
-+ site footer (set in `config.toml`), 
-+ [homepage](/) (set in `content/_index.md`),
-+ [about page](/about) in the sidebar (set in `content/about/sidebar/index.md`), and
-+ [contact page](/contact) (set in `content/form/contact.md`). 
+Some of the points that we discussed during the session:
 
-Read on to learn how to set up your social icons, and how to show/hide them.
+- I shared a bit about my experience working as a Quant after graduating from a STEM background (and having no previous experience). 
+- More generally, we discussed what does it mean to be a Quant and how this has changed over the years.
+- We talked about the large number of opportunities that currently exist in the Quant world. To put things in perspective, we took a look at this image from the book “The Front Office Manual: The Definitive Guide to Trading, Structuring and Sales (Global Financial Markets) (2013)” by A. Sutherland, and J. Court; and commented on how much things have changed since the book was published. Today, the picture should probably look more like this one ⬇️ which translates in much more opportunities for Quants!
+- Then, we passed to the more technical part of the agenda: defining the problem of estimating Greeks and exploring different mathematical techniques to solve it.
 
-## Configure social 
+You can access the lecture materials in the provided Jupyter notebook and slides here.
+Jupyter Notebook: Malliavin Greeks under BS dynamics
 
-Wherever you end up wanting to show your social icons, you'll need to start by setting up the links in your site `config.toml` file. Open that up and scroll down to the `[[params.social]]` section. The start of it looks like this:
 
-```toml
-[params]
-  <!--snip snip-->
-  
-  # Social icons may appear on your site header, footer, and other pages
-  # Add as many icons as you like below
-  # Icon pack "fab" includes brand icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
-  # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
-  # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
-  [[params.social]]
-      icon      = "github" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
-  [[params.social]] <!--lather, rinse, repeat-->
-```
+As every time –cannot believe this is already my 4th year visiting KCL– it was amazing to be at KCL and have the opportunity to engage with both the students and their professors who organise these lecture series, acting as a crucial bridge between industry and academia.
 
-For each link, you'll need to start a new portion that begins with `[[params.social]]`. Then, pick your `icon` and `icon_pack` from the [Font Awesome](https://fontawesome.com/) free icon library:
+As a quant, keeping in touch with academia holds a tremendous value. Not only does it help you to remain current with the latest research trends, but it also infuses you with the energy and curiosity of the upcoming generations!
 
-+ Icon pack "fab" includes [brand icons](https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-
-+ Icon pack "fas" includes [solid icons](https://fontawesome.com/icons?d=gallery&s=solid&m=free)
-
-+ Icon pack "far" includes [regular icons](https://fontawesome.com/icons?d=gallery&s=regular&m=free)
-
-Finally, add the `url` that you would like users to go to when they click on that icon. All external links (i.e., those that start with `http`) will open in a new tab (that is, `target="_blank"`); relative links to pages within the site will open in the same window.
-
-Now you should be all set to show/hide your social icons. Each of these will pull the social icons and urls from the settings you just created in your site configuration file.
-
-## Show social in site header and footer
-
-Let's start with the header and footer, as those are site-wide. Open up your site `config.toml` file again and scroll down to the `[params]` section (it is actually :up: from where you configured these icons):
-
-```toml
-[params]
-  <!--snip snip-->
-  
-  # show/hide social icons in site header & footer
-  # configure social icons and links below in [[params.social]]
-  socialInHeader = false
-  socialInFooter = true
-```
-
-That was easy!
-
-## Show social in homepage
-
-Open up `content/_index.md`. That file's YAML controls what you see on the homepage. Set `show_social_links` like so:
-
-```yaml
-show_social_links: true # specify social accounts in site config
-```
-
-If you set this to `true` to show the icons on the homepage, your social icons in the footer will not show up even when you set `socialInFooter = true`, so as not to litter your site with too many icons.
-
-## Show social in about page sidebar
-
-Open up `content/about/sidebar/index.md`. That file's YAML controls what you see in the sidebar on the about page. Set `show_social_links` like so:
-
-```yaml
-show_social_links: true # specify social accounts in site config
-```
-
-## Show social in contact page
-
-You may use the YAML for your contact page (located in `content/form/contact.md`):
-
-```yaml
----
-show_social_links: true # specify social accounts in site config
----
-```
+p.s. Big thank you to all the students for attending and asking so many interesting questions during and after the presentation.

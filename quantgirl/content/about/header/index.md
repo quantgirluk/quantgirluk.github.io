@@ -3,10 +3,13 @@
 text_align_right: false
 show_title_as_headline: false
 headline: |
-  Hi, my name is Hugo Apéro. Nice to meet you.
+    Hello,
 ---
 
 <!-- this is a subheadline -->
-I'm a Hugo theme you'll want to hang out with. :fr: 
 
-The page you are reading is based on a markdown file- look in `content/about/` to edit. There, look inside the `header`, `main`, and `sidebar` folders to get started building your own "about" page.
+My name is Dialid, I am a mathematician with over eight years of experience as a Quantitative Analyst (a.k.a. quant). 
+
+I was born in Mexico 🇲🇽 and moved to the UK 🇬🇧 to do a PhD in Mathematics and Statistics at the University of Warwick. After finishing my studies, I came to London to pursue a career in Finance. 
+
+Currently, I work in the Cross-Asset Front Office Strat team at Bank of America.

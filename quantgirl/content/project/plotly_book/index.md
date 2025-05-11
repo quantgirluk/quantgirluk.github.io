@@ -1,33 +1,34 @@
 ---
-title: "Bakeoff"
-subtitle: "An R Package"
+title: "Plotly and Dash Cookbook"
+subtitle: ""
 excerpt: "This theme has a form-to-email feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the form front matter."
-date: 2019-07-01
-author: "Eric Anderson"
+date: 2025-01-01
+author: "D. Santiago"
 draft: false
 tags:
   - hugo-site
 categories:
-  - Theme Features
-  - R
-  - package
+  - Python
+  - Data-viz
 layout: single
 links:
 - icon: door-open
   icon_pack: fas
   name: website
-  url: https://bakeoff.netlify.com/
+  url: https://quantgirluk.github.io/Plotly-Dash-Cookbook/intro.html
 - icon: github
   icon_pack: fab
   name: code
-  url: https://github.com/apreshill/bakeoff
+  url: https://github.com/quantgirluk/Plotly-Dash-Cookbook
 ---
 
-![Formspree Logo](formspree-logo.png)
+<!-- ![Formspree Logo](formspree-logo.png) -->
 
-## [Formspree](https://formspree.io) makes it easy to receive submissions from HTML forms on your static website.
+<!-- ## [Formspree](https://formspree.io) makes it easy to receive submissions from HTML forms on your static website. -->
 
----
+<!-- --- -->
+
+## Cookbook
 
 ### Functional Form
 

@@ -1,16 +1,16 @@
 baseURL = "https://www.example.org/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Hugo Apéro"
-author = "Alison Hill"
-copyright = "" # set to override the auto generated copyright using org info and now year
+title = "Quant Girl"
+author = "Dialid Santiago"
+copyright = "© Dialid Santiago 2025" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 #disqusShortname = "" # see params.comments to use utterances or giscus instead of Disqus
 metaDataFormat = "yaml"
 footnoteReturnLinkContents = "&#8617;" # ↩
 # set deliberately low for testing choose your preffered number based on the blog layout you've chosen
 [pagination]
-  pagerSize = 5
+  pagerSize = 7
 preserveTaxonomyNames = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 enableEmoji = true
@@ -22,15 +22,15 @@ enableEmoji = true
     hardwraps = false 
   [markup.tableOfContents]
     startLevel = 2
-    endLevel = 2
+    endLevel = 3
     ordered = false
   [markup.highlight]
     # one of: https://xyproto.github.io/splash/docs/ 
     style = "github"
     
 [params]
-  orgName = "RStudio"
-  orgLocal = "Anywhere"
+  orgName = "D. Santiago"
+  orgLocal = "London, UK"
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
@@ -63,11 +63,11 @@ enableEmoji = true
   # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
   # if you import your own fonts, name them here too
   customtextFontFamily = "Commissioner"
-  customheadingFontFamily = "Fraunces"
+  customheadingFontFamily = "Bitter"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
-  headingFontFamily = "sans-serif"
+  headingFontFamily = "baskerville"
 
   # Specify use of utterances, giscus or disqus
   comments = "utterances"
@@ -96,41 +96,31 @@ enableEmoji = true
 
   # Configuration of math rendering
   [params.math]
-    renderer = "katex" # one of "mathjax" / "katex" 
+    renderer = "mathjax" # one of "mathjax" / "katex" 
 
   # Social icons may appear on homepage and in site header or footer
   # Configure show/hide above - add as many as you like below
   # Icon pack "fab" includes brand icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
   # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
   # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
+
   [[params.social]]
-      icon      = "github" # icon name without the 'fa-'
+      icon      = "linkedin-in" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
+      url       = "https://www.linkedin.com/in/dialidsantiago/"
   [[params.social]]
-      icon      = "bluesky" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://bsky.app/"
+    icon      = "github" # icon name without the 'fa-'
+    icon_pack = "fab"
+    url       = "https://github.com/quantgirluk"
   [[params.social]]
-      icon      = "instagram" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.instagram.com/explore/tags/apero/"
+    icon      = "instagram" # icon name without the 'fa-'
+    icon_pack = "fab"
+    url       = "https://www.instagram.com/quant_girl/"
   [[params.social]]
       icon      = "x-twitter" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://twitter.com/hashtag/apéro"
-  [[params.social]]
-      icon      = "impactstory" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "https://impactstory.org/u/0000-0002-8082-1890"
-  [[params.social]]
-      icon      = "orcid" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "http://orcid.org/0000-0002-8082-1890"
-  [[params.social]]
-      icon      = "rss" # icon name without the 'fa-'
-      icon_pack = "fas"
-      url       = "/blog/index.xml"
+      url       = "https://x.com/Quant_Girl"
+
 
 [taxonomies]
   category = "categories"
@@ -155,20 +145,10 @@ enableEmoji = true
     url = "/project/"
     weight = 3
   [[menu.header]]
-    name = "Talks"
-    title = "Talks"
-    url = "/talk/"
-    weight = 4
-  [[menu.header]]
-    name = "A collection"
+    name = "Advent 2024"
     title = "A collection"
     url = "/collection/"
-    weight = 5
-  [[menu.header]]
-    name = "Elements"
-    title = "Element Page"
-    url = "/elements/"
-    weight = 6
+    weight = 4
     
   # Configure footer  
   [[menu.footer]]

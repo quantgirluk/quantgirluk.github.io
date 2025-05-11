@@ -1,25 +1,33 @@
 ---
-title: "Tachyons for Style"
-subtitle: "A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle that always moves faster than light."
-excerpt: "Building this static site generator theme was the first time I used an Atomic (or Functional) CSS system like Tachyons. It’s a design system that provides very small (which means fast) CSS modules that you can use in your HTML."
-date: 2019-07-03
-author: "Eric Anderson"
+title: "UQF"
+subtitle: "Understanding Quantitative Finance: A collection of notes exploring topics in Quantitative Finance (QF)."
+excerpt: "A collection of notes exploring a variety of topics in Quantitative Finance (QF). The idea is to use Python 🐍to illustrate the theoretical concepts and help you to get a better understanding of each concept."
+date: 2023-07-15
+author: "D. Santiago"
 draft: false
 tags:
   - hugo-site
 categories:
-  - Theme Features
-  - R
-  - package
+  - Python
+  - Finance
 # layout options: single or single-sidebar
-layout: single
+layout: single-sidebar
+links:
+- icon: door-open
+  icon_pack: fas
+  name: website
+  url: https://quantgirluk.github.io/Understanding-Quantitative-Finance/intro.html
+- icon: github
+  icon_pack: fab
+  name: code
+  url: https://github.com/quantgirluk/Understanding-Quantitative-Finance
 ---
 
-![Tachyons Logo Script](tachyons-logo-script.png)
+<!-- ![Tachyons Logo Script](tachyons-logo-script.png) -->
 
-## [Tachyons](http://tachyons.io) is a design system that allows you to design gorgeous interfaces in the browser with little effort.
+<!-- ## [Tachyons](http://tachyons.io) is a design system that allows you to design gorgeous interfaces in the browser with little effort. -->
 
----
+<!-- --- -->
 
 ### Because Speed
 
