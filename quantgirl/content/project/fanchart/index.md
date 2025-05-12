@@ -1,8 +1,8 @@
 ---
 title: "fanchart"
-subtitle: ""
-excerpt: "The term fan chart was coined by the Bank of England in 1996. Since then, central banks have used these charts to illustrate its forecasts for inflation. The fanchart library provides functionality to create fan charts in Python."
-date: 2023-01-01
+subtitle: "A Python library which provides functionality to create fancharts."
+excerpt: "📦 Python library to create Fan Charts as introduced by the Bank of England in 1996"
+date: 2020-01-05
 author: "D. Santiago"
 featured: true
 draft: false
@@ -16,7 +16,7 @@ links:
 
 - icon: github
   icon_pack: fab
-  name: repo
+  name: code
   url: https://github.com/quantgirluk/fanchart
 - icon: door-open
   icon_pack: fas
@@ -34,21 +34,22 @@ links:
 
 --- -->
 
-Fanchart provides functionality to create fancharts in Python.
+### Overview
 
-The term fan chart was coined by the Bank of England in 1996. Since then, central banks around the world have used these charts to illustrate its forecasts for inflation, GDP, and other economy measures.
+The term **fanchart** was coined by the Bank of England in 1996. Since then, central banks around the world have used these charts to illustrate its forecasts for inflation, GDP, and other economy measures.
 
 The BoE introduced the fan charts aiming to communicate a more accurate representation of their forecast for medium term inflation. In particular, the charts have two key objectives:
 
-1. To convey the uncertainty in their forecasts. This is, to focus attention on the forecast distribution, rather than only on small changes to the central projection.
-2. To promote discussion of the risks to the economic outlook, and thus contribute to a wider debate about economic policy. Fan charts help to make it clear that monetary policy is about making decisions instead of knowing the exact rate of inflation in two years time.
+1. To **convey the uncertainty** in their forecasts. This is, to focus attention on the forecast distribution, rather than only on small changes to the central projection.
+2. To **promote discussion** of the risks to the economic outlook, and thus contribute to a wider debate about economic policy. Fan charts help to make it clear that monetary policy is about making decisions instead of knowing the exact rate of inflation in two years time.
 
 This library provides two main functions:
 
 1. The fan function illustrates the distribution of all the forecasts available; and it has the option to display the historical values for reference.
+   ![A fanchart](fan01.png)
 2. The fan_single function illustrates the probability density function (pdf) or the cumulative density function (cdf) of one forecast distribution
-
----
+   ![A second fanchart](fan04.png)
+   ![A third fanchart](fan05.png)
 
 <!-- ### <dfn title="Ermahgerd is a humorous version of the phrase oh my god, written as though pronounced with a heavy influence of extra Rs. It's meant to imitate the sound of someone speaking through a retainer.">ERMAHGERD</dfn>
 

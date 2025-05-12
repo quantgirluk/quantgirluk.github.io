@@ -1,7 +1,7 @@
 ---
 title: "UQF"
 subtitle: "Understanding Quantitative Finance: A collection of notes exploring topics in Quantitative Finance (QF)."
-excerpt: "A collection of notes exploring a variety of topics in Quantitative Finance (QF). The idea is to use Python 🐍to illustrate the theoretical concepts and help you to get a better understanding of each concept."
+excerpt: "📒 A collection of notes exploring a variety of topics in Quantitative Finance (QF). The idea is to use Python 🐍to illustrate the theoretical concepts and help you to get a better understanding of each concept."
 date: 2023-07-15
 author: "D. Santiago"
 draft: false
@@ -23,13 +23,20 @@ links:
   url: https://github.com/quantgirluk/Understanding-Quantitative-Finance
 ---
 
-<!-- ![Tachyons Logo Script](tachyons-logo-script.png) -->
+### Overview
 
-<!-- ## [Tachyons](http://tachyons.io) is a design system that allows you to design gorgeous interfaces in the browser with little effort. -->
+This is a collection of notes exploring a number of topics in Quantitative Finance (QF). The idea is to use Python 🐍to illustrate the theoretical concepts and help you to get a better understanding of each topic.
+
+My aim is to provide an open-source repository where people interested in a career in QF can find these concepts covered in a rigorous manner while keeping the practitioners point of view into consideration.
+
+### Notes
+
+- This project is under construction 🦺 existing material may change and new recipes will be released on an ongoing basis 🌱
+- If you like this project, please give it a star ⭐️ in [GitHub](https://github.com/quantgirluk/Understanding-Quantitative-Finance)
 
 <!-- --- -->
 
-### Because Speed
+<!-- ### Because Speed
 
 Building this static site generator theme was the first time I used an Atomic
 (or Functional) CSS system like Tachyons. It's a design system that provides
@@ -130,4 +137,4 @@ $buttonHoverTextColorCustom: #f9f9f8;
 $buttonBgColorCustom: #103742;
 $buttonHoverBgColorCustom: #c4001a;
 $borderColorCustom: #c4beb9;
-```
+``` -->

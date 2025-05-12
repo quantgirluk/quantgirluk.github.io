@@ -1,7 +1,7 @@
 ---
 title: "Plotly and Dash Cookbook"
-subtitle: ""
-excerpt: "This theme has a form-to-email feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the form front matter."
+subtitle: "Over 100 recipes for Interactive Visualizations and Dashboards with Plotly and Dash"
+excerpt: "🖼️ Data Visualisation with Plotly Cookbook.  It will contain over 119 recipes for Interactive Visualizations and Dashboards with Plotly and Dash."
 date: 2025-01-01
 author: "D. Santiago"
 draft: false
@@ -10,7 +10,7 @@ tags:
 categories:
   - Python
   - Data-viz
-layout: single
+layout: single-sidebar
 links:
 - icon: door-open
   icon_pack: fas
@@ -28,38 +28,13 @@ links:
 
 <!-- --- -->
 
-## Cookbook
+### Overview
 
-### Functional Form
+This book offers practical, hands-on recipes covering a wide range of techniques and tools, making it an essential resource for both beginners and experienced users of Plotly and Dash.
 
-This theme has a **form-to-email** feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form
-(`/content/forms/contact.md`). Of course, the example shown below (`your@email.here`) must not be used. Please use your actual email address.
+The goal is to serve as a comprehensive guide for researchers, and practitioners looking to create dynamic, interactive visualizations and dashboards.
 
-```toml
-# please replace with a valid Formspree form id or email address
-formspree_form_id: your@email.here
-```
+### Notes
 
-Update that file and you're ready to begin receiving submissions. Just submit
-the active form for the first time, and complete the email address verification
-step with Formspree, and your contact form is live. The next time someone
-fills it out, the submission will land in your inbox.
-
-### Multiple Layouts
-
-The files included with the theme have a contact page ready for copy/paste, or
-you can type `hugo new forms/contact.md` and you're off to the races. There are two
-layouts for `forms` – `split-right`, and `split-left` – you guessed it, one puts
-the form on the right and the other on the left. You just fill out the front
-matter, and the rest is automatic.
-
-```toml
-# layout options: split-right or split-left
-layout: split-right
-```
-
-![Contact Form Split Right Layout Screenshot](built-in-contact-form-screenshot.png)
-
-Both layouts display the page title and description opposite the form, and you
-can also choose to show your social icon links if you have those configured in
-the `config.toml` file.
+- This project is under construction 🦺 existing material may change and new recipes will be released on an ongoing basis 🌱
+- If you like this project, please give it a star ⭐️ in [GitHub](https://github.com/quantgirluk/Plotly-Dash-Cookbook)

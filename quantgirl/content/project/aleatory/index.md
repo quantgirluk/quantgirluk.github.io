@@ -1,7 +1,7 @@
 ---
 title: "aleatory"
-subtitle: ""
-excerpt: "Aleatory (/ˈeɪliətəri/) is a Python library for simulating and visualising stochastic processes."
+subtitle: "A Python library for simulating and visualising stochastic processes"
+excerpt: "📦 Python library for Stochastic Processes Simulation and Visualisation. Covers more than 24 stochastic processes."
 date: 2023-01-01
 author: "D. Santiago"
 featured: true
@@ -16,9 +16,9 @@ links:
 
 - icon: github
   icon_pack: fab
-  name: repo
+  name: code
   url: https://github.com/quantgirluk/aleatory
-- icon: door-open
+- icon: palette
   icon_pack: fas
   name: gallery
   url: https://aleatory.readthedocs.io/en/latest/auto_examples/index.html
@@ -34,12 +34,18 @@ links:
 
 --- -->
 
-Aleatory (/ˈeɪliətəri/) is a Python library for simulating and visualising stochastic processes. It introduces objects representing stochastic processes, and provides functionality to:
+### Overview
+
+Aleatory (/ˈeɪliətəri/) introduces objects representing stochastic processes, and provides functionality to:
 
 - generate realizations/trajectories of each process over discrete time sets
 - create visualisations to illustrate the processes properties and behaviour
 
----
+
+![brownian_motion](brownian_motion_quickstart_03.png)
+
+
+<!-- --- -->
 
 <!-- ### <dfn title="Ermahgerd is a humorous version of the phrase oh my god, written as though pronounced with a heavy influence of extra Rs. It's meant to imitate the sound of someone speaking through a retainer.">ERMAHGERD</dfn>
 

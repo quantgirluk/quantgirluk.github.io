@@ -1,8 +1,8 @@
 ---
 title: "two-piece"
-subtitle: ""
+subtitle: "Python library providing Two-Piece distributions functionality."
 excerpt: "📦 Python library providing Two-Piece distributions functionality. It covers the subfamilies: TP Scale, TP Shape, and Double TP."
-date: 2023-01-01
+date: 2019-01-11
 author: "D. Santiago"
 featured: true
 draft: false
@@ -16,7 +16,7 @@ links:
 
 - icon: github
   icon_pack: fab
-  name: repo
+  name: code
   url: https://github.com/quantgirluk/twopiece
 - icon: door-open
   icon_pack: fas
@@ -34,9 +34,9 @@ links:
 
 --- -->
 
-## Overview
+### Overview
 
-The **_twopiece_** library provides a [Python](https://www.python.org/) implementation of the family of Two Piece
+The **twopiece** library provides a [Python](https://www.python.org/) implementation of the family of Two Piece
 distributions. It covers three subfamilies [Two-Piece Scale](#two-piece-scale), [Two-Piece Shape](#two-piece-shape),
 and [Double Two-Piece](#double-two-piece). The following diagram shows how these families relate.
 
@@ -45,9 +45,7 @@ and [Double Two-Piece](#double-two-piece). The following diagram shows how these
     width="500" height="230">
 </figure>
 
----
-
-## Notes
+### Notes
 
 For technical details on this families of distributions we refer to the following two publications which serve as reference for our implementation.
 

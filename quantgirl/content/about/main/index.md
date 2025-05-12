@@ -11,15 +11,18 @@ intro: |
 
   I love creating data visualisations as a tool to communicate complex ideas as well as provide powerful insights from data. This is why you will see lots of plots in this site.
 
-  Some random Facts about me
 
-  - I enjoy reading and practicing yoga
+  
+  Random facts about me:
+
+  - In my free time, I enjoy reading (both fiction and non-fiction), practicing yoga, and learning random things
   - I worked as a baker for nearly a decade
   - I am from a small [town](https://www.google.com/maps/place/Santiago+Ihuitlán+Plumas,+Oaxaca,+Mexico/@19.6370618,-104.3956752,1962158m/data=!3m1!1e3!4m13!1m7!3m6!1s0x85c60ac18644afaf:0x401fafd4ec6ad50!2sSantiago+Ihuitlán+Plumas,+Oaxaca,+Mexico!3b1!8m2!3d17.8481698!4d-97.428907!3m4!1s0x85c60ac18644afaf:0x401fafd4ec6ad50!8m2!3d17.8481698!4d-97.428907) in Oaxaca, Mexico
   - I have been a big fan of [Peanuts](https://www.peanuts.com/about/snoopy), and [Mafalda](https://www.quino.com.ar/mafaldaenglish) since I was a kid
   - C++ was the first programming lenguaje that I learned
+  - I like insects 🪲
   
-  As you can see, my site has no ads, no tracking, no sponsored posts, and no paywall. My only motivation is to share some of what I have learned with anybody who is interested.
+  As you can see, my site has no ads, no tracking, no sponsored posts, and no paywall. My only motivation is to share some of what I have learned with anybody who is interested."
  
 
 show_outro: false
