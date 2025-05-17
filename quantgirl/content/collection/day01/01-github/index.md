@@ -1,9 +1,9 @@
 ---
-title: "A GitHub profile"
+title: "2023"
 weight: 1
-subtitle: "Put your best foot forward, first."
+subtitle: "Probability Distributions"
 excerpt: "You can share information about yourself with the community on GitHub by creating a profile README. GitHub shows your profile README at the top of your profile page."
-date: 2021-01-01
+date: 2023-12-01
 draft: false
 links:
 - icon: door-open
@@ -16,7 +16,7 @@ links:
   url: https://github.com/apreshill/bakeoff
 ---
 
-## Profile
+<!-- ## Profile
 
 https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/personalizing-your-profile
 
@@ -28,4 +28,4 @@ https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/pi
 
 This is new! Let's do it:
 
-https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme
+https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme -->

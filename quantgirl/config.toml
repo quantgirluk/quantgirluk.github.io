@@ -145,7 +145,7 @@ enableEmoji = true
     url = "/project/"
     weight = 3
   [[menu.header]]
-    name = "Advent 2024"
+    name = "Collections"
     title = "A collection"
     url = "/collection/"
     weight = 4

@@ -10,6 +10,7 @@ show_post_thumbnail: true
 thumbnail_left: false # for list-sidebar only
 show_author_byline: false
 show_post_date: false
+show_button_links: true
 # for listing page layout
 layout: list-sidebar # list, list-sidebar
 
@@ -17,10 +18,10 @@ layout: list-sidebar # list, list-sidebar
 cascade:
   layout: single-series 
   sidebar:
-    title: "Advent Calendars"
+    title: "Collections"
     author: D. Santiago
     description: |
-      An Advent calendar, from the German word Adventskalender, is used to count the days of Advent in anticipation of Christmas. Since the date of the First Sunday of Advent varies, falling between November 27 and December 3 inclusive, many reusable Advent calendars made of paper or wood begin on December 1.
+      Random collections
     show_author_byline: true
     show_post_date: true
     text_link_label: ""

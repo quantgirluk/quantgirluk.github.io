@@ -1,12 +1,22 @@
 ---
-title: "A postcard"
+title: "2024"
 weight: 2
-subtitle: "Write and send a single postcard."
+subtitle: "Stochastic Processes"
 excerpt: "In this block, we'll use the postcards package to make a single 'about' home page with only R Markdown."
-date: 2021-01-02
+date: 2024-12-01
+draft: false
+links:
+- icon: door-open
+  icon_pack: fas
+  name: website
+  url: https://bakeoff.netlify.com/
+- icon: github
+  icon_pack: fab
+  name: code
+  url: https://github.com/apreshill/bakeoff
 ---
 
-## Pre-requisites
+<!-- ## Pre-requisites
 
 First, make sure you have the latest version of the postcards package installed from CRAN:
 
@@ -132,4 +142,4 @@ Medium:
 ## Share your postcard!
 
 Add it to your repository details
-  
+   -->
